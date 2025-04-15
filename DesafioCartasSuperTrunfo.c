@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-int main()[
+int main(){
 
-    char estado1, estado2;
+    char estado1[20], estado2[20];
     char codigodacarta1[20], codigodacarta2[20];
     char nomedacidade1[30], nomedacidade2[30];
     int populacao1, populacao2;
@@ -14,7 +14,6 @@ int main()[
 
         printf("Estado: ");
         scanf("%c, &estado1 \n");
-
         printf("Insira o código da carta: ");
         scanf("%s, &codigodacarta1 \n");
 
@@ -75,4 +74,4 @@ int main()[
         printf("Número de pontos turísticos: %d\n", numerodepontosturisticos2);
 
     return 0;
-]
+}
