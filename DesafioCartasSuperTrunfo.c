@@ -42,7 +42,7 @@ int main(){
     printf("Carta 2:\n");
 
         printf("Insira uma letra referente ao Estado: ");
-        scanf("%c", &estado2);
+        scanf(" %c", &estado2);
 
         printf("Insira o código da carta: ");
         scanf("%s", &codigodacarta2);
