@@ -2,7 +2,7 @@
 
 int main(){
 
-// Definição das variaveis para cada atributo a seguir:
+// Declarando as variaveis para cada atributo a seguir:
     
     char estado1, estado2;
     char codigodacarta1[20], codigodacarta2[20];
